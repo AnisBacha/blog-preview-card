@@ -40,7 +40,7 @@ body{
     font-size: .75rem;
     font-weight: 800;
     padding: .5rem 1rem;
-    margin-block: 2rem 1rem;
+    margin-block: 1rem;
     border-radius: 5px;
     width: max-content;
 }
@@ -53,7 +53,6 @@ body{
     font-weight: 800;
 }
 .main__description{
-    font-size: .9rem;
     color: hsl(0, 0%, 42%);
 }
 
@@ -73,8 +72,5 @@ body{
 @media screen and (min-width: 1024px) {
     .main{
         max-width: 384px;
-    }
-    .main__description{
-        font-size: 1rem;
     }
 }
